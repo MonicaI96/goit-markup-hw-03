@@ -162,59 +162,28 @@ text-decoration:none;
   display: flex;
   gap: 40px;
 }
-
-.contact {
-  color: var(--text-contacts-color);
+.contacts1 {
+  color: #2196F3;
   font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-  text-align: left;
-  text-decoration-line: none;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration:none;
+}
+.contacts2 {
+  color: #757575;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+text-decoration:none;
 }
 
-.contact-active:hover,
-.contact-active:focus {
-  color: var(--webstudio-color);
-}
 
-
-/* Hero Section*/
-
-.hero {
-  align-items: center;
-  background-color: var(--background);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.hero-text {
-  color: #fff;
-  font-size: 44px;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  line-height: 1.36;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.request-our-service-button {
-  background-color: var(--webstudio-color);
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  line-height: 1.875;
-  text-align: center;
-}
-
-.request-our-service-button:hover,
-.request-our-service-button:focus {
-  background-color: #fff;
-  color: var(--webstudio-color);
-}
 
 /* ATTENTION TO DETAILS advertising Section*/
 
@@ -261,7 +230,7 @@ text-decoration:none;
 
 /* What we do Section */
 
-.what-we-do-section {
+.section {
   margin: 0 auto;
   max-width: 1170px;
   padding-bottom: 94px;
